@@ -9,8 +9,8 @@ void main()
     };
     union a key;
     key.i=512;
-    printf("1. key.i=%d\n",key.i);
     strcpy(key.ch,"d");
+    printf("1. key.i=%d\n",key.i);
     printf("2. key.ch[0]=%s\n",key.ch);
     printf("3. key.ch[1]=%s\n",key.ch);
     key.i=42;
